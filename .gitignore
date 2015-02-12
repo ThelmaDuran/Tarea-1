@@ -1,0 +1,12 @@
+import webbrowser
+import time
+
+total_descansos = 3
+contador_descansos = 0
+
+print "Empezando Script" + time.ctime()
+while(contador_descansos < total_descansos):
+	time.sleep(5)
+	print "abriendo navegador"
+	webbrowser.open('https://www.fanfiction.net/')
+	contador_descansos +=1
